@@ -1,7 +1,6 @@
 import React from 'react'
 import MyLink from '../react-router/MyLink'
 import useNavigate from '../react-router/hooks/useNavigate';
-import { replace } from 'react-router';
 
 export default function Navbar() {
     const navigate  = useNavigate()
